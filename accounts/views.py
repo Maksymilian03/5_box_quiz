@@ -6,9 +6,6 @@ from django.contrib import messages
 from django.contrib.auth.views import LoginView, FormView, PasswordChangeView
 from django.urls import reverse_lazy
 from .forms import CustomUserCreationForm, LoginForm, UpdateUserForm, UpdateProfileForm
-from django.http import HttpResponse
-from django.views.generic import View
-# from .process import html_to_pdf
 
 # Create your views here
 
@@ -70,9 +67,3 @@ class ChangePasswordView(SuccessMessageMixin, PasswordChangeView):
     success_message = "Successfully Changed Your Password"
     success_url = reverse_lazy('index')
 
-
-# class GeneratePdf(View):
-#     def show_certificate(self, request, *args, **kwargs):
-#         pdf = html_to_pdf('accounts/result.html')
-#
-#         return HttpResponse(pdf, content_type='application/pdf')
