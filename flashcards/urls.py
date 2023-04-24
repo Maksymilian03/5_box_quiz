@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import random_flashcard, FlashcardsView, BlogPageView, AboutQuiz, Start, FinishPage, Certificate
+from .views import random_flashcard, FlashcardsView, BlogPageView, AboutQuiz, Start, FinishPage, show_certificate
 
 urlpatterns = [
     path('', FlashcardsView.as_view(), name='index'),
@@ -8,5 +8,5 @@ urlpatterns = [
     path('flashcards/', random_flashcard, name='flashcard'),
     path('start/', Start.as_view(), name='start'),
     path('finish_page/', FinishPage.as_view(), name='finish'),
-    path('certificate/', Certificate.as_view(), name='certificate'),
+    path('certificate/', show_certificate, name='certificate'),
 ]
