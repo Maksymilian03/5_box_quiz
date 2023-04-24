@@ -6,7 +6,18 @@
 <form method="post">
     {% csrf_token %}
     {{form.as_p}}
-    <input type="submit" class= "button" value="Sign in" />
+    <div class="buttons">
+        <button type="submit" class="btn btn-dark btn-lg"><span>Sign in</span>
+            <svg
+                width="13px"
+                height="10px"
+                viewBox="0 0 13 10"
+            >
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+        </button>
+    </div>
 </form>
     <p>You don't have an account? <a href="{%url 'register' %}"><strong>Create account</strong></a></p>
 
