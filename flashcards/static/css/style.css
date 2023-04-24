@@ -62,7 +62,7 @@ ul {
     margin: 7rem 0;
 }
 
-.container__section--thank-you {
+.container__section--thank-you, .not-found {
     font-size: 2rem;
     font-weight: 600;
 }
@@ -181,7 +181,7 @@ main {
     min-height: calc(100vh - 20rem);
 }
 
-h2 {
+h2, h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     font-weight: 900;
@@ -293,7 +293,7 @@ h2 {
 }
 
 .chart span {
-    background: var(--color-gray);
+    background: var(--color-gray); 
     display: block;
     width: 10rem;
     height: 30rem;
@@ -317,7 +317,7 @@ h2 {
 }
 
 .chart span:nth-child(even) {
-    background: var(--color-green);
+    background: var(--color-green);    
 }
 
 /* Buttons */
@@ -420,11 +420,12 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 30rem;
+    max-width: 80rem;
 }
 
 form label {
     font-size: 1.7rem;
+    display: block;
 }
 
 form input {
