@@ -27,8 +27,6 @@
                         >Home</a></li>
                     <li><a href="{% url 'leitner_system' %}">Leitner's method</a></li>
                     <li><a href="{% url 'about_quiz' %}">About Quiz</a></li>
-                    <li><a href="#">Our goals</a></li>
-                    <li><a href="#">Ranking</a></li>
                     <li><a href="{% url 'profile' %}">Profile</a></li>
                     {% if user.is_authenticated %}                    
                         <li><a href="{% url 'logout' %}">Logout</a></li>
@@ -54,7 +52,6 @@
         <section class="footer">5_box_quiz 2023 Made with passion by GreenTeam.</section>
     </footer>
 
-{#    <script src="script.js"></script>#}
 </body>
 
 </html>
