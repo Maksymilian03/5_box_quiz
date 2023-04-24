@@ -2,7 +2,7 @@
 
 {% block content %}
     <section class="container__section">
-        <h2>1 out of 20</h2>
+        <h2>Good luck and enjoy :-)</h2>
     </section>
 
     <section class="flashcard active">
@@ -11,7 +11,7 @@
             <p>{{ random_flashcard.question }}</p>
             <div class="buttons">
                 <a
-                    href="{% url 'flashcard' %}"
+                    onclick="javascript:window.location.reload();"
                     class="btn next"
                 >
                     <span>Next</span>
@@ -25,7 +25,7 @@
                     </svg>
                 </a>
                 <a
-                    href="start.html"
+                    href="flashcard.html"
                     class="btn i-know"
                 >
                     <span>I know</span>
@@ -43,10 +43,23 @@
 
         <div class="container__section--card flashcard-back">
             <p>{{ random_flashcard.answers }}</p>
-
-
+             <div class="buttons">
+                <a
+                    onclick="javascript:window.location.reload();"
+                    class="btn next"
+                >
+                    <span>Next</span>
+                    <svg
+                        width="13px"
+                        height="10px"
+                        viewBox="0 0 13 10"
+                    >
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+            </div>
         </div>
     </section>
-
 
 {% endblock %}
