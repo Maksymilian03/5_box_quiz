@@ -36,9 +36,29 @@
                     <label class="small mb-1">Bio:</label> {{ profile_form.bio }}
                 </div>
             </div>
-            <br><br>
-            <button type="submit" class="btn btn-dark btn-lg">Save Changes</button>
-            <button type="reset" class="btn btn-dark btn-lg">Reset</button>
+            <br />
+            <div class="buttons">
+                <button type="submit" class="btn btn-dark btn-lg"><span>Save Changes</span>
+                    <svg
+                        width="13px"
+                        height="10px"
+                        viewBox="0 0 13 10"
+                    >
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+                <button type="reset" class="btn start-now-btn"><span>Reset</span>
+                    <svg
+                        width="13px"
+                        height="10px"
+                        viewBox="0 0 13 10"
+                    >
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
         </form>
     </div>
 {% endblock content %}
