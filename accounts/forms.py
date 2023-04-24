@@ -53,23 +53,6 @@ class CustomUserCreationForm(UserCreationForm):
                 raise forms.ValidationError("Please, change - Email - and this time use a PROPER language")
         return email
 
-    # def clean_username(self):
-    #     username = self.cleaned_data.get('username')
-    #
-    #     with open("accounts/wordlist.txt", 'r') as f:
-    #         blacklist = f.read().splitlines()
-    #
-    #     for bad_word in blacklist:
-    #         if bad_word in username:
-    #             raise forms.ValidationError("Please, use a proper language")
-    #     return username
-
-    #
-    # for bad_word in blacklist:
-    #     if bad_word in username or first_name or last_name or email:
-    #         raise forms.ValidationError("Please, try again and this time use a PROPER language")
-    # return username or first_name or last_name or email
-
 
 class LoginForm(AuthenticationForm):
     fields = ('username', 'password1', 'password2')
