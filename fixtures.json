@@ -1,904 +1,904 @@
 [
-    {
-      "model": "flashcards.flashcards",
-      "pk": 1,
-      "fields": {
-        "ID": 1,
-        "box_ID": 1,
-        "question": "Python function always returns a value T/F",
-        "answers": "True"
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 2,
-      "fields": {
-        "box_ID": 1,
-        "question": "What is a correct syntax to output \"Hello World\" in Python?",
-        "answers": "print(\"Hello World\")"
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 3,
-      "fields": { 
-        "box_ID": 1,
-        "question": "How do you insert comments in Python code?",
-        "answers": "#This is comment"
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 4,
-      "fields": {
-        "box_ID": 1,
-        "question": "What is the correct file extension for Python files?",
-        "answers": ".py"
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 5,
-      "fields": {
-        "box_ID": 1,
-        "question": "Which type of Programming does Python support?",
-        "answers": "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming."
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 6,
-      "fields": {
-        "box_ID": 1,
-        "question": "Is Python code compiled or interpreted?",
-        "answers": "Python code is both compiled and interpreted"
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 7,
-      "fields": {
-        "box_ID": 1,
-        "question": "In Python3, Whatever you enter as input, the input() function converts it into a string T/F",
-        "answers": "True"
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 8,
-      "fields": {
-        "box_ID": 1,
-        "question": "When does a new block begin in Python?",
-        "answers": "A block begins when the line is intended by 4 spaces"
-      }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 9,
-      "fields": {
-        "box_ID": 1,
-        "question": "Is String in Python are immutable?(Yes/No)",
-        "answers": "Yes"
-        }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 10,
-      "fields": {
-        "box_ID": 1,
-        "question": "Which keyword is used for function in Python language?",
-        "answers": "The def keyword is used to create, (or define) a function in python"
-        }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 11,
-      "fields": {
-        "box_ID": 1,
-        "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
-        "answers": "The function sys.version can help us to find the version of python that we are currently working on"
-        }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 12,
-      "fields": {
-        "box_ID": 1,
-        "question": "What does pip stand for Python?",
-        "answers": "Preferred Installer Program"
-        }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 13,
-      "fields": {
-        "box_ID": 1,
-        "question": "Which of the following is not a core data type in Python programming? Tuples/Lists/Class/Dictionary",
-        "answers": "Class"
-        }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 14,
-      "fields": {
-        "box_ID": 1,
-        "question": "Which of the following statements is used to create an empty set in Python?",
-        "answers": "Only set() creates an empty set"
-        }
-    },
-    {
-      "model": "flashcards.flashcards",
-      "pk": 15,
-      "fields": {
-        "box_ID": 1,
-        "question": "String literals� A string literal is created by assigning some text enclosed in single or double quotes to a variable.",
-        "answers": "Eg.name=�Tanya�"
-      }
-    },
-  
   {
     "model": "flashcards.flashcards",
-    "pk": 16,
+    "pk": 1,
     "fields": {
+      "ID": 1,
       "box_ID": 1,
-      "question": "What are python iterators?",
-      "answers": "Iterators are objects which can be traversed though or iterated upon"
-      }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 17,
-    "fields": {
-      "box_ID": 1,
-      "question": "How can you generate random numbers in Python?",
-      "answers": "import random"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 18,
-    "fields": {
-      "box_ID": 1,
-      "question": "What are the generators in python?",
-      "answers": "Functions that return an iterable set of items are called generators"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 19,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the purpose of �is�?",
-      "answers": "is returns true when 2 operands are true� (Example: �a� is �a�)"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 20,
-    "fields": {
-      "box_ID": 1,
-      "question": "Is python a case sensitive language?",
-      "answers": "Yes Python is a case sensitive programming language."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 21,
-    "fields": {
-      "box_ID": 1,
-      "question": "Syntax error in python is detected by _________at _______",
-      "answers": "interpreter/run time"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 22,
-    "fields": {
-      "box_ID": 1,
-      "question": "How to create an empty set in Python?",
-      "answers": "set()_we need to define the set by including the keyword �set�"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 23,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is output for ? 2 * 2 **3",
-      "answers": 16
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 24,
-    "fields": {
-      "box_ID": 1,
-      "question": "Which among them is used to create an object? Class, function or class",
-      "answers": "Constructor is used to create an object of class"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 25,
-    "fields": {
-      "box_ID": 1,
-      "question": "What will be the output of the following code? print(type(1/2))",
-      "answers": "<class 'float'>"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 26,
-    "fields": {
-      "box_ID": 1,
-      "question": "What are the supported data types in Python?",
-      "answers": "Numbers, Strings, List, Tuple, Dictionary"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 27,
-    "fields": {
-      "box_ID": 1,
-      "question": "How will you get the length of a list?",
-      "answers": "len(list) ? Gives the total length of the list"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 28,
-    "fields": {
-      "box_ID": 1,
-      "question": "What are tuples in Python?",
-      "answers": "A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parentheses"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 29,
-    "fields": {
-      "box_ID": 1,
-      "question": "Can True = False be possible in Python?",
-      "answers": "No"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 30,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the order of precedence in Python?",
-      "answers": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction (PEMDAS)"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 31,
-    "fields": {
-      "box_ID": 1,
-      "question": "What arithmetic operators cannot be used with strings in Python?",
-      "answers": "-'arithmetic operators cannot be used with strings."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 32,
-    "fields": {
-      "box_ID": 1,
-      "question": "The Python interpreter takes the code that you write and converts it to the language that the computer�s hardware understands. T/F",
+      "question": "Python function always returns a value T/F",
       "answers": "True"
     }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 33,
+    "pk": 2,
     "fields": {
       "box_ID": 1,
-      "question": "Python does not support a character type; a single character is treated as strings of length one. T/F",
+      "question": "What is a correct syntax to output \"Hello World\" in Python?",
+      "answers": "print(\"Hello World\")"
+    }
+  },
+  {
+    "model": "flashcards.flashcards",
+    "pk": 3,
+    "fields": { 
+      "box_ID": 1,
+      "question": "How do you insert comments in Python code?",
+      "answers": "#This is comment"
+    }
+  },
+  {
+    "model": "flashcards.flashcards",
+    "pk": 4,
+    "fields": {
+      "box_ID": 1,
+      "question": "What is the correct file extension for Python files?",
+      "answers": ".py"
+    }
+  },
+  {
+    "model": "flashcards.flashcards",
+    "pk": 5,
+    "fields": {
+      "box_ID": 1,
+      "question": "Which type of Programming does Python support?",
+      "answers": "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming."
+    }
+  },
+  {
+    "model": "flashcards.flashcards",
+    "pk": 6,
+    "fields": {
+      "box_ID": 1,
+      "question": "Is Python code compiled or interpreted?",
+      "answers": "Python code is both compiled and interpreted"
+    }
+  },
+  {
+    "model": "flashcards.flashcards",
+    "pk": 7,
+    "fields": {
+      "box_ID": 1,
+      "question": "In Python3, Whatever you enter as input, the input() function converts it into a string T/F",
       "answers": "True"
     }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 34,
+    "pk": 8,
     "fields": {
       "box_ID": 1,
-      "question": "What are Dict and List comprehensions?",
-      "answers": "Dictionary and list comprehensions are just another concise way to define dictionaries and lists"
+      "question": "When does a new block begin in Python?",
+      "answers": "A block begins when the line is intended by 4 spaces"
     }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 35,
+    "pk": 9,
     "fields": {
       "box_ID": 1,
-      "question": "Boolean literals� These can be 2 values? T/F",
-      "answers": "True"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 36,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the purpose of not operator?",
-      "answers": "returns the inverse of the boolean value"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 37,
-    "fields": {
-      "box_ID": 1,
-      "question": "What are Python packages?",
-      "answers": "Python packages are namespaces containing multiple modules"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 38,
-    "fields": {
-      "box_ID": 1,
-      "question": "How can files be deleted in Python?",
-      "answers": "To delete a file in Python, you need to import the OS Module. After that, you need to use the os.remove() function"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 39,
-    "fields": {
-      "box_ID": 1,
-      "question": "What are the built-in types of Python?",
-      "answers": "Integers,Floating-point,Complex numbers,Strings,Boolean,Built-in functions"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 40,
-    "fields": {
-      "box_ID": 1,
-      "question": "What are Python libraries?",
-      "answers": "Numpy, Pandas, Matplotlib, Scikit-learn"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 41,
-    "fields": {
-      "box_ID": 1,
-      "question": "In Python-what are decorators?",
-      "answers": "Decorators are just employed to add certain layout patterns to a method without affecting the structure of the function. Typically, decorators are identified before the event they will be improving. We should first define a decorator's function before using it"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 42,
-    "fields": {
-      "box_ID": 1,
-      "question": "How will you convert a string to a float in python?",
-      "answers": "float(x) Converts x to a floating-point number"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 43,
-    "fields": {
-      "box_ID": 1,
-      "question": "What will be the output of the following Python expression? round(4.576)",
-      "answers": "Hence the output will be 5."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 44,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is pep 8?",
-      "answers": "PEP stands for Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 45,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is self in Python?",
-      "answers": "Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 46,
-    "fields": {
-      "box_ID": 1,
-      "question": "How does break works in Python?",
-      "answers": "Allows loop termination when some condition is met and the control is transferred to the next statement"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 47,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the difference between range & xrange?",
-      "answers": "The only difference is that range returns a Python list object and x range returns an xrange object"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 48,
-    "fields": {
-      "box_ID": 1,
-      "question": "What exactly is __init__?",
-      "answers": "In Python, __init__ is a function or function Object() { [native code] }. When a new object/instance of a class is created, this function is automatically called to reserve memory"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 49,
-    "fields": {
-      "box_ID": 1,
-      "question": "In Python, what are docstrings?",
-      "answers": "Docstrings stands for documentation strings, which are not just comments"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 50,
-    "fields": {
-      "box_ID": 1,
-      "question": "Some of the commonly used built-in modules in Python",
-      "answers": "os,sys,math,random,data time,JSON"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 51,
-    "fields": {
-      "box_ID": 1,
-      "question": "Is Python is Open source?",
-      "answers": "Yes Python is highly cost-effective. One does not need to buy any subscription or scripting cost."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 52,
-    "fields": {
-      "box_ID": 1,
-      "question": "Python is integrable with other languages which",
-      "answers": "It can be easily integrated and compiled with C, C++, COM, and Java."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 53,
-    "fields": {
-      "box_ID": 1,
-      "question": "Python is a very resourceful language that works for not only a coder but also the user in various domains. For example",
-      "answers": "Building a Dynamic Website, Game Programming, Implementing Color Detection Software, ML"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 54,
-    "fields": {
-      "box_ID": 1,
-      "question": "What does it mean that Python is Portable?",
-      "answers": "Python is a highly portable language in any device which supports the idle format. From mobile phones to laptops to any other device, python is in the form of a source code or plain sheet as well"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 55,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is Pyramid in Python?",
-      "answers": "It is a mega framework that connects the web with python and implements both dynamic as well as static codes in the language."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 56,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the main principal in Django?",
-      "answers": "It is made to follow the DRY(Don�t Repeat Yourself) principle which means that once you enter the information there is no coming back. It works as an operating generator in the main source code."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 57,
-    "fields": {
-      "box_ID": 1,
-      "question": "In separated value files such as .csv and .tsv what does the first row in the file typically contain?",
-      "answers": "The column names of the data"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 58,
-    "fields": {
-      "box_ID": 1,
-      "question": "Python is user-oriented language",
-      "answers": "Python is a user-oriented language, this means the code which is written in python is highly logical and hence easily comprehensible for any user."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 59,
-    "fields": {
-      "box_ID": 1,
-      "question": "Is Python programming language or scripting language?",
-      "answers": "Although we can use Python to write scripts, it is primarily used as a general-purpose programming language."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 60,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is namespace in Python?",
-      "answers": "A namespace is a naming system used to make sure that names are unique to avoid naming conflicts"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 61,
-    "fields": {
-      "box_ID": 1,
-      "question": "How will you create a dictionary using tuples in python?",
-      "answers": "dict(d) ? Creates a dictionary. d must be a sequence of (key,value) tuples"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 62,
-    "fields": {
-      "box_ID": 1,
-      "question": "How will you compare two lists?",
-      "answers": "cmp(list1, list2) Compares elements of both lists"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 63,
-    "fields": {
-      "box_ID": 1,
-      "question": "What are the applications of Python?",
-      "answers": "Django (Web framework of Python) and Micro Frame work such as Flask and Bottle"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 64,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the difference between Python Arrays and lists?",
-      "answers": "Arrays and lists, in Python, have the same way of storing data. But, arrays can hold only a single data type elements whereas lists can hold any data type elements"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 65,
-    "fields": {
-      "box_ID": 1,
-      "question": "How does continue works in Python?",
-      "answers": "llows skipping some part of a loop when some specific condition is met and the control is transferred to the beginning of the loop"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 66,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the purpose of in operator?",
-      "answers": "checks if some element is present in some sequence"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 67,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is a dictionary in Python?",
-      "answers": "The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 68,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is split used for?",
-      "answers": "The split() method is used to separate a given String in Python"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 69,
-    "fields": {
-      "box_ID": 1,
-      "question": "How to import modules in python?",
-      "answers": "Modules can be imported using the import keyword"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 70,
-    "fields": {
-      "box_ID": 1,
-      "question": "Does python support multiple inheritance?",
-      "answers": "Multiple inheritance means that a class can be derived from more than one parent classes. Python does support multiple inheritance, unlike Java."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 71,
-    "fields": {
-      "box_ID": 1,
-      "question": "How do you do data abstraction in Python?",
-      "answers": "Data Abstraction is providing only the required details and hiding the implementation from the world. It can be achieved in Python by using interfaces and abstract classes"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 72,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is Web2py for Python?",
-      "answers": "It is an open-source web developing agent, which is connected with multiple coded bots for a good architecture of the code."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 73,
-    "fields": {
-      "box_ID": 1,
-      "question": "Python Constructs:",
-      "answers": "Functions/Classes and Objects/Modules and Packages/Data Structures/Comments"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 74,
-    "fields": {
-      "box_ID": 1,
-      "question": "Python is Object-Oriented",
-      "answers": "This means that not only code, but python is dynamic as well. It supports the object orientation, i.e., the representation of the code. For building a website, python plays an important role as it identifies the objects parsed easily"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 75,
-    "fields": {
-      "box_ID": 1,
-      "question": "Python Architecture: 3 parts",
-      "answers": "Parser/Compiler/Interpreter"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 76,
-    "fields": {
-      "box_ID": 1,
-      "question": "In Python, strings are�",
-      "answers": "Str objects"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 77,
-    "fields": {
-      "box_ID": 1,
-      "question": "Python strings have a property called �immutability.\" What does this mean?",
-      "answers": "Strings in Python can�t be changed"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 78,
-    "fields": {
-      "box_ID": 1,
-      "question": "Which operator can be used to compare two values?",
-      "answers": "=="
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 79,
-    "fields": {
-      "box_ID": 1,
-      "question": "GUI Programming in Python",
-      "answers": "Python supports GUI applications means graphic user interface, which are highly dynamic for any structural code."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 80,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is Tornado?",
-      "answers": "It is a nonblocking syntax, which allows the debugging and development of the tools. It is highly compatible and memory-efficient also"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 81,
-    "fields": {
-      "box_ID": 1,
-      "question": "Brython what is that?",
-      "answers": "A web version of python which uses a browser to operate. It allows the importing from the web, not only the designs and source copies of the codes but the marginal functions as well. It uses dynamic programming to generate main codes."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 82,
-    "fields": {
-      "box_ID": 1,
-      "question": "Is Python is Readable for new coder? T/F",
-      "answers": "True"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 83,
-    "fields": {
-      "box_ID": 1,
-      "question": "Disadvantages of Python",
-      "answers": "Speed Limitation/Browser Affective/Design Restriction"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 84,
-    "fields": {
-      "box_ID": 1,
-      "question": "Pylons what is that?",
-      "answers": "It was a much early used framework, which had basic calculative performances, but due to less efficiency it is no longer recommended. However, it is still in use for basic generational computer programs."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 85,
-    "fields": {
-      "box_ID": 1,
-      "question": "Independent Domanial language what does it stands for?",
-      "answers": "Python is a must recommended programming language for any data analyst, gamer, and computational programmer."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 86,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is Robot Framework?",
-      "answers": "It is an open-source for testing automobile development and automation. It provides a graphical interface to interact with the code"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 87,
-    "fields": {
-      "box_ID": 1,
-      "question": "Productivity in Python",
-      "answers": "Python is considered the most productive language, as it does not need any pre-learning of any syntax or codes. The simplicity of the language is in pure maths and logic. You can write the code anytime without prior learning."
-    }
+      "question": "Is String in Python are immutable?(Yes/No)",
+      "answers": "Yes"
+      }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 88,
+    "pk": 10,
     "fields": {
       "box_ID": 1,
-      "question": "How many digits are allowed in the float data type after the decimal point?",
-      "answers": 15
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 89,
-    "fields": {
-      "box_ID": 1,
-      "question": "Which of the following is not allowed to be used for the hexadecimal system? a A E G",
-      "answers": "G"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 90,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is the difference between pickling and unpickling?",
-      "answers": "The Pickle module takes any Python object and then transforms it into the representation of a string, which it then dumps into a file using the dump method. Unpickling is the procedure of recovering authentic Python items from a saved string representation."
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 91,
-    "fields": {
-      "box_ID": 1,
-      "question": "In Python, what is a negative index?",
-      "answers": "In Arrays and Lists, Python contains a unique feature called negative indexing. Python starts indexing from the beginning of an array or list in a positive integer but reads items from the ending of an array or list in a negative index"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 92,
-    "fields": {
-      "box_ID": 1,
-      "question": "What exactly is a NumPy array?",
-      "answers": "NumPy arrays are much more versatile than Python lists. Reading and writing objects are quicker and more efficient using NumPy arrays"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 93,
-    "fields": {
-      "box_ID": 1,
-      "question": "Is Python numpy better than lists?",
-      "answers": "Less Memory - Fast - Convenient"
-    }
-  },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 94,
-    "fields": {
-      "box_ID": 1,
-      "question": "Is Django better than Flask?",
-      "answers": "Django and Flask map the URL�s or addresses typed in the web browsers to functions in Python"
-    }
+      "question": "Which keyword is used for function in Python language?",
+      "answers": "The def keyword is used to create, (or define) a function in python"
+      }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 95,
+    "pk": 11,
     "fields": {
       "box_ID": 1,
-      "question": "Define encapsulation in Python?",
-      "answers": "Encapsulation means binding the code and the data together. A Python class in an example of encapsulation"
-    }
+      "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+      "answers": "The function sys.version can help us to find the version of python that we are currently working on"
+      }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 96,
+    "pk": 12,
     "fields": {
       "box_ID": 1,
-      "question": "What is Polymorphism in Python?",
-      "answers": "Polymorphism means the ability to take multiple forms. So, for instance, if the parent class has a method named ABC then the child class also can have a method with the same name ABC having its own parameters and variables"
-    }
+      "question": "What does pip stand for Python?",
+      "answers": "Preferred Installer Program"
+      }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 97,
+    "pk": 13,
     "fields": {
       "box_ID": 1,
-      "question": "How can the ternary operators be used in python?",
-      "answers": "The Ternary operator is the operator that is used to show the conditional statements. This consists of the true or false values with a statement that has to be evaluated for it"
-    }
+      "question": "Which of the following is not a core data type in Python programming? Tuples/Lists/Class/Dictionary",
+      "answers": "Class"
+      }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 98,
+    "pk": 14,
     "fields": {
       "box_ID": 1,
-      "question": "How does pass works in Python?",
-      "answers": "Used when you need some block of code syntactically, but you want to skip its execution. This is basically a null operation"
-    }
+      "question": "Which of the following statements is used to create an empty set in Python?",
+      "answers": "Only set() creates an empty set"
+      }
   },
   {
     "model": "flashcards.flashcards",
-    "pk": 99,
+    "pk": 15,
     "fields": {
       "box_ID": 1,
-      "question": "Name the python Library used for Machine learning",
-      "answers": "Scikit-learn python Library used for Machine learning"
+      "question": "String literals– A string literal is created by assigning some text enclosed in single or double quotes to a variable.",
+      "answers": "Eg.name=”Tanya”"
     }
   },
-  {
-    "model": "flashcards.flashcards",
-    "pk": 100,
-    "fields": {
-      "box_ID": 1,
-      "question": "What is a lambda function?",
-      "answers": "An anonymous function is known as a lambda function. This function can have any number of parameters but, can have just one statement"
+
+{
+  "model": "flashcards.flashcards",
+  "pk": 16,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are python iterators?",
+    "answers": "Iterators are objects which can be traversed though or iterated upon"
     }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 17,
+  "fields": {
+    "box_ID": 1,
+    "question": "How can you generate random numbers in Python?",
+    "answers": "import random"
   }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 18,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are the generators in python?",
+    "answers": "Functions that return an iterable set of items are called generators"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 19,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the purpose of ‘is’?",
+    "answers": "is returns true when 2 operands are true  (Example: “a” is ‘a’)"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 20,
+  "fields": {
+    "box_ID": 1,
+    "question": "Is python a case sensitive language?",
+    "answers": "Yes Python is a case sensitive programming language."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 21,
+  "fields": {
+    "box_ID": 1,
+    "question": "Syntax error in python is detected by _________at _______",
+    "answers": "interpreter/run time"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 22,
+  "fields": {
+    "box_ID": 1,
+    "question": "How to create an empty set in Python?",
+    "answers": "set()_we need to define the set by including the keyword ‘set’"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 23,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is output for ? 2 * 2 **3",
+    "answers": 16
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 24,
+  "fields": {
+    "box_ID": 1,
+    "question": "Which among them is used to create an object? Class, function or class",
+    "answers": "Constructor is used to create an object of class"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 25,
+  "fields": {
+    "box_ID": 1,
+    "question": "What will be the output of the following code? print(type(1/2))",
+    "answers": "<class 'float'>"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 26,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are the supported data types in Python?",
+    "answers": "Numbers, Strings, List, Tuple, Dictionary"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 27,
+  "fields": {
+    "box_ID": 1,
+    "question": "How will you get the length of a list?",
+    "answers": "len(list) ? Gives the total length of the list"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 28,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are tuples in Python?",
+    "answers": "A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parentheses"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 29,
+  "fields": {
+    "box_ID": 1,
+    "question": "Can True = False be possible in Python?",
+    "answers": "No"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 30,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the order of precedence in Python?",
+    "answers": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction (PEMDAS)"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 31,
+  "fields": {
+    "box_ID": 1,
+    "question": "What arithmetic operators cannot be used with strings in Python?",
+    "answers": "-'arithmetic operators cannot be used with strings."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 32,
+  "fields": {
+    "box_ID": 1,
+    "question": "The Python interpreter takes the code that you write and converts it to the language that the computer’s hardware understands. T/F",
+    "answers": "True"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 33,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python does not support a character type; a single character is treated as strings of length one. T/F",
+    "answers": "True"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 34,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are Dict and List comprehensions?",
+    "answers": "Dictionary and list comprehensions are just another concise way to define dictionaries and lists"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 35,
+  "fields": {
+    "box_ID": 1,
+    "question": "Boolean literals– These can be 2 values? T/F",
+    "answers": "True"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 36,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the purpose of not operator?",
+    "answers": "returns the inverse of the boolean value"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 37,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are Python packages?",
+    "answers": "Python packages are namespaces containing multiple modules"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 38,
+  "fields": {
+    "box_ID": 1,
+    "question": "How can files be deleted in Python?",
+    "answers": "To delete a file in Python, you need to import the OS Module. After that, you need to use the os.remove() function"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 39,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are the built-in types of Python?",
+    "answers": "Integers,Floating-point,Complex numbers,Strings,Boolean,Built-in functions"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 40,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are Python libraries?",
+    "answers": "Numpy, Pandas, Matplotlib, Scikit-learn"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 41,
+  "fields": {
+    "box_ID": 1,
+    "question": "In Python-what are decorators?",
+    "answers": "Decorators are just employed to add certain layout patterns to a method without affecting the structure of the function. Typically, decorators are identified before the event they will be improving. We should first define a decorator's function before using it"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 42,
+  "fields": {
+    "box_ID": 1,
+    "question": "How will you convert a string to a float in python?",
+    "answers": "float(x) Converts x to a floating-point number"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 43,
+  "fields": {
+    "box_ID": 1,
+    "question": "What will be the output of the following Python expression? round(4.576)",
+    "answers": "Hence the output will be 5."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 44,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is pep 8?",
+    "answers": "PEP stands for Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 45,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is self in Python?",
+    "answers": "Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 46,
+  "fields": {
+    "box_ID": 1,
+    "question": "How does break works in Python?",
+    "answers": "Allows loop termination when some condition is met and the control is transferred to the next statement"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 47,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the difference between range & xrange?",
+    "answers": "The only difference is that range returns a Python list object and x range returns an xrange object"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 48,
+  "fields": {
+    "box_ID": 1,
+    "question": "What exactly is __init__?",
+    "answers": "In Python, __init__ is a function or function Object() { [native code] }. When a new object/instance of a class is created, this function is automatically called to reserve memory"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 49,
+  "fields": {
+    "box_ID": 1,
+    "question": "In Python, what are docstrings?",
+    "answers": "Docstrings stands for documentation strings, which are not just comments"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 50,
+  "fields": {
+    "box_ID": 1,
+    "question": "Some of the commonly used built-in modules in Python",
+    "answers": "os,sys,math,random,data time,JSON"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 51,
+  "fields": {
+    "box_ID": 1,
+    "question": "Is Python is Open source?",
+    "answers": "Yes Python is highly cost-effective. One does not need to buy any subscription or scripting cost."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 52,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python is integrable with other languages which",
+    "answers": "It can be easily integrated and compiled with C, C++, COM, and Java."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 53,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python is a very resourceful language that works for not only a coder but also the user in various domains. For example",
+    "answers": "Building a Dynamic Website, Game Programming, Implementing Color Detection Software, ML"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 54,
+  "fields": {
+    "box_ID": 1,
+    "question": "What does it mean that Python is Portable?",
+    "answers": "Python is a highly portable language in any device which supports the idle format. From mobile phones to laptops to any other device, python is in the form of a source code or plain sheet as well"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 55,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is Pyramid in Python?",
+    "answers": "It is a mega framework that connects the web with python and implements both dynamic as well as static codes in the language."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 56,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the main principal in Django?",
+    "answers": "It is made to follow the DRY(Don’t Repeat Yourself) principle which means that once you enter the information there is no coming back. It works as an operating generator in the main source code."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 57,
+  "fields": {
+    "box_ID": 1,
+    "question": "In separated value files such as .csv and .tsv what does the first row in the file typically contain?",
+    "answers": "The column names of the data"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 58,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python is user-oriented language",
+    "answers": "Python is a user-oriented language, this means the code which is written in python is highly logical and hence easily comprehensible for any user."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 59,
+  "fields": {
+    "box_ID": 1,
+    "question": "Is Python programming language or scripting language?",
+    "answers": "Although we can use Python to write scripts, it is primarily used as a general-purpose programming language."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 60,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is namespace in Python?",
+    "answers": "A namespace is a naming system used to make sure that names are unique to avoid naming conflicts"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 61,
+  "fields": {
+    "box_ID": 1,
+    "question": "How will you create a dictionary using tuples in python?",
+    "answers": "dict(d) ? Creates a dictionary. d must be a sequence of (key,value) tuples"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 62,
+  "fields": {
+    "box_ID": 1,
+    "question": "How will you compare two lists?",
+    "answers": "cmp(list1, list2) Compares elements of both lists"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 63,
+  "fields": {
+    "box_ID": 1,
+    "question": "What are the applications of Python?",
+    "answers": "Django (Web framework of Python) and Micro Frame work such as Flask and Bottle"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 64,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the difference between Python Arrays and lists?",
+    "answers": "Arrays and lists, in Python, have the same way of storing data. But, arrays can hold only a single data type elements whereas lists can hold any data type elements"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 65,
+  "fields": {
+    "box_ID": 1,
+    "question": "How does continue works in Python?",
+    "answers": "llows skipping some part of a loop when some specific condition is met and the control is transferred to the beginning of the loop"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 66,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the purpose of in operator?",
+    "answers": "checks if some element is present in some sequence"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 67,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is a dictionary in Python?",
+    "answers": "The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 68,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is split used for?",
+    "answers": "The split() method is used to separate a given String in Python"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 69,
+  "fields": {
+    "box_ID": 1,
+    "question": "How to import modules in python?",
+    "answers": "Modules can be imported using the import keyword"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 70,
+  "fields": {
+    "box_ID": 1,
+    "question": "Does python support multiple inheritance?",
+    "answers": "Multiple inheritance means that a class can be derived from more than one parent classes. Python does support multiple inheritance, unlike Java."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 71,
+  "fields": {
+    "box_ID": 1,
+    "question": "How do you do data abstraction in Python?",
+    "answers": "Data Abstraction is providing only the required details and hiding the implementation from the world. It can be achieved in Python by using interfaces and abstract classes"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 72,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is Web2py for Python?",
+    "answers": "It is an open-source web developing agent, which is connected with multiple coded bots for a good architecture of the code."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 73,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python Constructs:",
+    "answers": "Functions/Classes and Objects/Modules and Packages/Data Structures/Comments"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 74,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python is Object-Oriented",
+    "answers": "This means that not only code, but python is dynamic as well. It supports the object orientation, i.e., the representation of the code. For building a website, python plays an important role as it identifies the objects parsed easily"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 75,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python Architecture: 3 parts",
+    "answers": "Parser/Compiler/Interpreter"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 76,
+  "fields": {
+    "box_ID": 1,
+    "question": "In Python, strings are…",
+    "answers": "Str objects"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 77,
+  "fields": {
+    "box_ID": 1,
+    "question": "Python strings have a property called ''immutability.'' What does this mean?",
+    "answers": "Strings in Python can’t be changed"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 78,
+  "fields": {
+    "box_ID": 1,
+    "question": "Which operator can be used to compare two values?",
+    "answers": "=="
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 79,
+  "fields": {
+    "box_ID": 1,
+    "question": "GUI Programming in Python",
+    "answers": "Python supports GUI applications means graphic user interface, which are highly dynamic for any structural code."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 80,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is Tornado?",
+    "answers": "It is a nonblocking syntax, which allows the debugging and development of the tools. It is highly compatible and memory-efficient also"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 81,
+  "fields": {
+    "box_ID": 1,
+    "question": "Brython what is that?",
+    "answers": "A web version of python which uses a browser to operate. It allows the importing from the web, not only the designs and source copies of the codes but the marginal functions as well. It uses dynamic programming to generate main codes."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 82,
+  "fields": {
+    "box_ID": 1,
+    "question": "Is Python is Readable for new coder? T/F",
+    "answers": "True"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 83,
+  "fields": {
+    "box_ID": 1,
+    "question": "Disadvantages of Python",
+    "answers": "Speed Limitation/Browser Affective/Design Restriction"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 84,
+  "fields": {
+    "box_ID": 1,
+    "question": "Pylons what is that?",
+    "answers": "It was a much early used framework, which had basic calculative performances, but due to less efficiency it is no longer recommended. However, it is still in use for basic generational computer programs."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 85,
+  "fields": {
+    "box_ID": 1,
+    "question": "Independent Domanial language what does it stands for?",
+    "answers": "Python is a must recommended programming language for any data analyst, gamer, and computational programmer."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 86,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is Robot Framework?",
+    "answers": "It is an open-source for testing automobile development and automation. It provides a graphical interface to interact with the code"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 87,
+  "fields": {
+    "box_ID": 1,
+    "question": "Productivity in Python",
+    "answers": "Python is considered the most productive language, as it does not need any pre-learning of any syntax or codes. The simplicity of the language is in pure maths and logic. You can write the code anytime without prior learning."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 88,
+  "fields": {
+    "box_ID": 1,
+    "question": "How many digits are allowed in the float data type after the decimal point?",
+    "answers": 15
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 89,
+  "fields": {
+    "box_ID": 1,
+    "question": "Which of the following is not allowed to be used for the hexadecimal system? a A E G",
+    "answers": "G"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 90,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is the difference between pickling and unpickling?",
+    "answers": "The Pickle module takes any Python object and then transforms it into the representation of a string, which it then dumps into a file using the dump method. Unpickling is the procedure of recovering authentic Python items from a saved string representation."
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 91,
+  "fields": {
+    "box_ID": 1,
+    "question": "In Python, what is a negative index?",
+    "answers": "In Arrays and Lists, Python contains a unique feature called negative indexing. Python starts indexing from the beginning of an array or list in a positive integer but reads items from the ending of an array or list in a negative index"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 92,
+  "fields": {
+    "box_ID": 1,
+    "question": "What exactly is a NumPy array?",
+    "answers": "NumPy arrays are much more versatile than Python lists. Reading and writing objects are quicker and more efficient using NumPy arrays"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 93,
+  "fields": {
+    "box_ID": 1,
+    "question": "Is Python numpy better than lists?",
+    "answers": "Less Memory - Fast - Convenient"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 94,
+  "fields": {
+    "box_ID": 1,
+    "question": "Is Django better than Flask?",
+    "answers": "Django and Flask map the URL’s or addresses typed in the web browsers to functions in Python"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 95,
+  "fields": {
+    "box_ID": 1,
+    "question": "Define encapsulation in Python?",
+    "answers": "Encapsulation means binding the code and the data together. A Python class in an example of encapsulation"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 96,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is Polymorphism in Python?",
+    "answers": "Polymorphism means the ability to take multiple forms. So, for instance, if the parent class has a method named ABC then the child class also can have a method with the same name ABC having its own parameters and variables"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 97,
+  "fields": {
+    "box_ID": 1,
+    "question": "How can the ternary operators be used in python?",
+    "answers": "The Ternary operator is the operator that is used to show the conditional statements. This consists of the true or false values with a statement that has to be evaluated for it"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 98,
+  "fields": {
+    "box_ID": 1,
+    "question": "How does pass works in Python?",
+    "answers": "Used when you need some block of code syntactically, but you want to skip its execution. This is basically a null operation"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 99,
+  "fields": {
+    "box_ID": 1,
+    "question": "Name the python Library used for Machine learning",
+    "answers": "Scikit-learn python Library used for Machine learning"
+  }
+},
+{
+  "model": "flashcards.flashcards",
+  "pk": 100,
+  "fields": {
+    "box_ID": 1,
+    "question": "What is a lambda function?",
+    "answers": "An anonymous function is known as a lambda function. This function can have any number of parameters but, can have just one statement"
+  }
+}
 ]
